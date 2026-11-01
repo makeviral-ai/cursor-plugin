@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "makeviral": {
+      "type": "http",
+      "url": "https://www.makeviral.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "makeviral",
+  "displayName": "MakeViral",
+  "version": "1.0.0",
+  "description": "Find the newest viral AI video trend templates from TikTok and Instagram Reels and make them from your photos. Also create AI images and videos from a prompt.",
+  "author": {
+    "name": "MakeViral",
+    "email": "support@makeviral.ai"
+  },
+  "homepage": "https://www.makeviral.ai",
+  "repository": "https://github.com/makeviral-ai/cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["makeviral", "ai video", "viral trends", "tiktok", "instagram reels", "ai image", "video generator", "mcp"],
+  "category": "integrations",
+  "tags": ["makeviral", "ai-video", "mcp", "trends"],
+  "mcpServers": "./mcp.json"
+}
