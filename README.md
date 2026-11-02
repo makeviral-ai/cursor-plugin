@@ -20,6 +20,10 @@ gemini extensions install https://github.com/makeviral-ai/cursor-plugin
 
 The extension adds the MakeViral remote MCP server (`https://www.makeviral.ai/mcp`) and a short `GEMINI.md` context file. Gemini CLI opens the MakeViral sign-in the first time a tool needs your account. Update with `gemini extensions update makeviral`.
 
+## Cline and other MCP clients
+
+Add the remote server URL `https://www.makeviral.ai/mcp` (Streamable HTTP). See [llms-install.md](llms-install.md) for the Cline config.
+
 ## MCP
 
 ```json
