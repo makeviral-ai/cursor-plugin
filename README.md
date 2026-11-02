@@ -1,6 +1,6 @@
 # MakeViral
 
-Cursor plugin that connects agents to [MakeViral](https://www.makeviral.ai) through its official remote [Model Context Protocol](https://modelcontextprotocol.io/) server.
+Cursor plugin and Gemini CLI extension that connect agents to [MakeViral](https://www.makeviral.ai) through its official remote [Model Context Protocol](https://modelcontextprotocol.io/) server.
 
 Find the newest viral AI video trend templates from TikTok and Instagram Reels, and make them from your own photos. Agents can also create AI images and videos from a prompt.
 
@@ -11,6 +11,14 @@ Find the newest viral AI video trend templates from TikTok and Instagram Reels, 
 3. Click **Install**. Browsing templates works without sign-in; sign in to MakeViral when you start a run.
 
 Or run `/add-plugin makeviral` in chat.
+
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/makeviral-ai/cursor-plugin
+```
+
+The extension adds the MakeViral remote MCP server (`https://www.makeviral.ai/mcp`) and a short `GEMINI.md` context file. Gemini CLI opens the MakeViral sign-in the first time a tool needs your account. Update with `gemini extensions update makeviral`.
 
 ## MCP
 

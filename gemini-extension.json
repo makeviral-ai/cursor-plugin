@@ -1,0 +1,11 @@
+{
+  "name": "makeviral",
+  "version": "1.0.0",
+  "description": "Find the newest viral AI video trend templates from TikTok and Instagram Reels and make them from your photos. Also create AI images and videos from a prompt. https://www.makeviral.ai",
+  "mcpServers": {
+    "makeviral": {
+      "httpUrl": "https://www.makeviral.ai/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
